@@ -1,0 +1,4 @@
+# Dodaj tutaj pakiety Python, które mają być zainstalowane w venv
+# Przykład:
+# requests==2.31.0
+# pandas==2.1.0
