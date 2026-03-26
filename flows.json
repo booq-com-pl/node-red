@@ -83,28 +83,29 @@
         ]
     },
     {
-        "id": "ca98e3337f13d5de",
-        "type": "debug",
-        "z": "f6f2187d.f17ca8",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": true,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 690,
-        "y": 400,
-        "wires": []
-    },
-    {
         "id": "4b4e93ea954c2302",
         "type": "pythonshell in",
         "z": "f6f2187d.f17ca8",
         "x": 680,
         "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1914bc17622a8acd",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "function 1",
+        "func": "debugger\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 220,
         "wires": [
             []
         ]
