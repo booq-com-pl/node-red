@@ -3,10 +3,11 @@ import json
 import sys
 
 def main():
-    raw = sys.stdin.read().strip()
-    if not raw:
-        print(json.dumps({"error": "No input data on stdin"}))
+    if len(sys.argv) < 2:
+        print(json.dumps({"error": "No input data in sys.argv[1]"}))
         sys.exit(1)
+
+    raw = sys.argv[1].strip()
 
     try:
         rows = json.loads(raw)
