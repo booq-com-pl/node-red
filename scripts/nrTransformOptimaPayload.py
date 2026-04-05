@@ -3,10 +3,8 @@ import json
 import sys
 
 def main():
-    print("Script Payload:")
-
-    payload = json.loads(sys.argv[1])
-    print(json.dumps(payload, indent=4))
+    print("First argument:")
+    print(sys.argv[1])
 
 if __name__ == "__main__":
     main()
