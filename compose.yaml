@@ -11,6 +11,7 @@ services:
     volumes:
       - node-red-data:/data
       - ./scripts:/data/scripts
+      - ./config:/data/config
     restart: unless-stopped
 
 volumes:
