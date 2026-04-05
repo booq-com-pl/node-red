@@ -41,7 +41,7 @@ docker run --rm nodered/node-red node -e \
 ### 3. Build and start
 
 ```bash
-docker-compose up -d --build
+docker compose up -d --build
 ```
 
 Node-RED will be available at `http://<host>:1880`.
@@ -50,16 +50,16 @@ Node-RED will be available at `http://<host>:1880`.
 
 ```bash
 # Start
-docker-compose up -d
+docker compose up -d
 
 # Rebuild after Dockerfile or requirements.txt changes
-docker-compose up -d --build
+docker compose up -d --build
 
 # Stop
-docker-compose down
+docker compose down
 
 # View logs
-docker-compose logs -f
+docker compose logs -f
 ```
 
 ## Python scripts
@@ -81,5 +81,5 @@ In the `pythonshell in` node set the script path to:
 Add packages to `requirements.txt`, then rebuild:
 
 ```bash
-docker-compose up -d --build
+docker compose up -d --build
 ```

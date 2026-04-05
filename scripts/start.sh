@@ -7,6 +7,6 @@ PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 cd "${PROJECT_DIR}"
 
 echo "==> Starting node-red"
-docker-compose up -d
+docker compose up -d
 
 echo "==> Node-RED is running at http://localhost:1880"
