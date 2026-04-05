@@ -1,10 +1,20 @@
 module.exports = {
     flowFile: 'flows.json',
     credentialsFile: 'flows_cred.json',
+    credentialSecret: process.env.NODE_RED_CREDENTIAL_SECRET,
 
     flowFilePretty: true,
 
     uiPort: process.env.PORT || 1880,
+
+    adminAuth: {
+        type: 'credentials',
+        users: [{
+            username: process.env.NODE_RED_ADMIN_USER || 'admin',
+            password: process.env.NODE_RED_ADMIN_PASSWORD_HASH,
+            permissions: '*',
+        }],
+    },
 
     diagnostics: {
         enabled: true,
@@ -38,7 +48,7 @@ module.exports = {
     },
 
     functionExternalModules: true,
-    functionTimeout: 0,
+    functionTimeout: 30,
 
     debugMaxLength: 1000,
 

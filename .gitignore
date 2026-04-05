@@ -1,2 +1,4 @@
 *.backup
 **/*.local*
+.env
+flows_cred.json
