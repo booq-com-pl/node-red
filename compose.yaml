@@ -1,5 +1,7 @@
 services:
   node-red:
+    env_file:
+      - .env
     build: .
     image: booq-node-red:latest
     ports:
