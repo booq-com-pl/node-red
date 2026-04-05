@@ -8,9 +8,6 @@ services:
       - "1880:1880"
     environment:
       TZ: Europe/Warsaw
-      NODE_RED_CREDENTIAL_SECRET: ${NODE_RED_CREDENTIAL_SECRET}
-      NODE_RED_ADMIN_USER: ${NODE_RED_ADMIN_USER:-admin}
-      NODE_RED_ADMIN_PASSWORD_HASH: ${NODE_RED_ADMIN_PASSWORD_HASH}
     volumes:
       - node-red-data:/data
       - ./scripts:/data/scripts
