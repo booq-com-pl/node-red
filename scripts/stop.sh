@@ -7,6 +7,6 @@ PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 cd "${PROJECT_DIR}"
 
 echo "==> Stopping node-red"
-docker compose stop
+docker-compose stop
 
 echo "==> Done."

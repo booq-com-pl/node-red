@@ -17,7 +17,7 @@ BACKUP_DIR="$(cd "$(dirname "${BACKUP_FILE}")" && pwd)"
 BACKUP_NAME="$(basename "${BACKUP_FILE}")"
 
 echo "==> Stopping node-red"
-docker compose stop node-red
+docker-compose stop node-red
 
 echo "==> Restoring from: ${BACKUP_FILE}"
 docker run --rm \
@@ -26,6 +26,6 @@ docker run --rm \
   alpine sh -c "rm -rf /data/* && tar xzf /backup/${BACKUP_NAME} -C / --strip-components=1"
 
 echo "==> Starting node-red"
-docker compose start node-red
+docker-compose start node-red
 
 echo "Done. Restored from: ${BACKUP_FILE}"
