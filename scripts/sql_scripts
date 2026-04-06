@@ -1,0 +1,29 @@
+select VaN_VaNID,
+     VaN_Rejestr,
+     VaN_RokMies,
+     VaN_DataObowiazkuPodatkowego,
+     VaN_Dokument,
+     VaN_KntNazwa1,
+     VaN_KntNazwa2,
+     VaN_RazemNetto,
+     VaN_RazemVAT,
+     VaN_RazemBrutto,
+     VaN_Waluta  
+ from CDN_Booq.CDN.VatNag
+where VaN_RokMies in (202602,202601)
+   and VaN_Rejestr ='SPRZEDAŻ';
+
+select VaN_VaNID,
+     VaN_Rejestr,
+     VaN_RokMies,
+     VaN_DataObowiazkuPodatkowego,
+     VaN_Dokument,
+     VaN_KntNazwa1,
+     VaN_KntNazwa2,
+     VaN_RazemNetto,
+     VaN_RazemVAT,
+     VaN_RazemBrutto,
+     VaN_Waluta  
+ from CDN_Booq.CDN.VatNag
+where VaN_RokMies in (202602,202601)
+   and VaN_Rejestr ='ZAKUP';
