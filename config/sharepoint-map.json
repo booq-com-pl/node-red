@@ -8,7 +8,7 @@
     },
     "SPRZEDAZ": {
       "listId": "TU_WSTAW_ID_LISTY_SPRZEDAZ",
-      "listUrl": "https://booqpoznan.sharepoint.com/sites/AplicationDeployment/Lists/CDN_Booq_2026_7831750380/AllItems.aspx"
+      "listUrl": "https://booqpoznan.sharepoint.com/sites/AplicationDeployment/Lists/CDN_Booq_2026_7831750380_SPRZEDAZ/AllItems.aspx"
     }
   },
   "7792220760": {
@@ -20,7 +20,7 @@
     },
     "SPRZEDAZ": {
       "listId": "455da5fd-d55f-4670-969b-163c20fb691f",
-      "listUrl": "https://booqpoznan.sharepoint.com/sites/AplicationDeployment/Lists/CDN_CMT_Advisory_2026_7792220760/AllItems.aspx"
+      "listUrl": "https://booqpoznan.sharepoint.com/sites/AplicationDeployment/Lists/CDN_CMT_Advisory_2026_7792220760_SPRZEDAZ/AllItems.aspx"
     }
   }
 }
