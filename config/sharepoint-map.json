@@ -1,12 +1,20 @@
 {
   "7831750380": {
-    "siteUrl": "https://booqpoznan.sharepoint.com/sites/AplicationDeployment",
-    "listUrl_ZAKUP": "https://booqpoznan.sharepoint.com/sites/AplicationDeployment/Lists/CDN_Booq_2026_7831750380/AllItems.aspx",
-    "listUrl_SPRZEDAZ": "https://booqpoznan.sharepoint.com/sites/AplicationDeployment/Lists/CDN_Booq_2026_7831750380/AllItems.aspx"
+    "siteId": "booqpoznan.sharepoint.com,e24bde5b-bd95-4d6e-bbdd-99c435417866,3e640096-3593-4767-9335-94ba56e00241",
+    "ZAKUP": {
+      "listId": "TU_WSTAW_ID_LISTY_ZAKUP"
+    },
+    "SPRZEDAZ": {
+      "listId": "TU_WSTAW_ID_LISTY_SPRZEDAZ"
+    }
   },
-   "7792220760": {
-    "siteUrl": "https://booqpoznan.sharepoint.com/sites/AplicationDeployment",
-    "listUrl_ZAKUP": "https://booqpoznan.sharepoint.com/sites/AplicationDeployment/Lists/CDN_CMT_Advisory_2026_7792220760/AllItems.aspx",
-    "listUrl_SPRZEDAZ": "https://booqpoznan.sharepoint.com/sites/AplicationDeployment/Lists/CDN_CMT_Advisory_2026_7792220760/AllItems.aspx"
+  "7792220760": {
+    "siteId": "booqpoznan.sharepoint.com,e24bde5b-bd95-4d6e-bbdd-99c435417866,3e640096-3593-4767-9335-94ba56e00241",
+    "ZAKUP": {
+      "listId": "ff02ea1c-2850-4784-a483-07304b4615a7"
+    },
+    "SPRZEDAZ": {
+      "listId": "455da5fd-d55f-4670-969b-163c20fb691f"
+    }
   }
 }
