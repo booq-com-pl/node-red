@@ -1,5 +1,7 @@
 *.backup
 **/*.local*
 .env
+**/*.env*
 flows_cred.json
 *.claude
+.env.example
